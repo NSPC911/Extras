@@ -1,0 +1,14 @@
+{
+    "version": "1.0.0",
+    "description": "A multi-functional configurable CLI script that allows you to search for a term in a directory.",
+    "homepage": "https://github.com/NSPC911/search",
+    "license": "MIT License",
+    "url": "https://github.com/NSPC911/search/releases/download/v1.0.0/scoop.zip",
+    "hash": "C09C7150CF7F68374C50E164067D61D05282FFCFAC915217FD00B93561D773B8",
+    "bin": "search.py",
+    "checker": "github",
+    "autoupdate": {
+        "url": "https://github.com/NSPC911/search/releases/download/v$version/scoop.zip"
+    },
+	"notes": "Scoop may not properly set up the shim, so running `scoop shim list` will not show search's shim. However, it does exist in the shim directory. I am not sure how to fix it."
+}
